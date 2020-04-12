@@ -26,3 +26,8 @@ Quatre sections :
 * [FileZilla](https://filezilla-project.org/) pour communiquer avec le serveur
 * [Ionos](https://www.ionos.fr/) pour l'achat du nom de domaine
 * [FreePng.fr](https://www.freepng.fr/) pour les PNG.
+
+# Journal
+
+* **12 Avril 2020**
+    * Initialisation du projet.
