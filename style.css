@@ -1,10 +1,18 @@
+                                        /* GENERAL */
+
 html, body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     --blanc: #f5f6fa;
     --noir: #2f3640;
+    --rouge: #e84118;
+    --vert: #44bd32;
+    --violet: #8c7ae6;
+    --bleu: #0097e6;
 }
+
+                                        /* HEADER + NAV */
 
 header {
     display: flex;
@@ -16,6 +24,8 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+                                        /* NAVIGATION */
 
 nav {
     display: flex;
@@ -148,9 +158,121 @@ nav {
     height: 20%;
 }
 
+.menu3 a {
+    text-decoration: none;
+    color: var(--noir);
+}
+
+.menu3 a:hover {
+    font-weight: bold;
+}
+
+                                        /* HEADER */
+
 .main-container {
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     width: 95%;
     height: 90%;
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nom {
+    color: #fff;
+    font-family: 'Bangers', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #000;
+    /* border: 1px solid #fff; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.phrase {
+    background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%);
+    width: 50%;
+    color: var(--blanc);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    margin-bottom: 40px;
+    text-align: center;
+    /* border: 1px solid #fff; */
+}
+
+.cv a {
+    text-decoration: none;
+    color: var(--blanc);
+    background-color: var(--rouge);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+}
+
+                                        /* PRESENTATION */
+
+#presentation {
+    min-height: 50vh;
+    background-color: var(--blanc);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.carte-presentation1 {
+    border: 1px solid #000;
+    width: 290px;
+    height: 290px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte-presentation2 {
+    border: 1px solid #000;
+    width: 290px;
+    height: 290px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte-presentation3 {
+    border: 1px solid #000;
+    width: 290px;
+    height: 290px;
+    padding: 10px;
+}
+
+.carte-presentation4 {
+    border: 1px solid #000;
+    width: 290px;
+    height: 290px;
+    padding: 10px;
+}
+
+                                        /* PROJETS */
+
+#projets {
+    min-height: 100vh;
+    background-color: var(--vert);
+    padding-top: 60px;
+}
+
+
+
+#contact {
+    min-height: 100vh;
+    padding-top: 60px;
 }

@@ -34,3 +34,9 @@ Quatre sections :
 
 * **13 Avril 2020**
     * Ajout du menu de navigation.
+    * Création du Header.
+    * Mise en place des sections Présentation, Projets et Contact.
+
+# Le résultat
+
+La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr/index.html).
