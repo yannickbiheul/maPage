@@ -241,7 +241,7 @@ nav {
 
 #presentation {
     min-height: 50vh;
-    background-color: var(--violet);
+    background-color: var(--noir);
     color: #fff;
     display: flex;
     flex-wrap: wrap;
@@ -254,7 +254,7 @@ nav {
 
 .carte-presentation1 {
     /* border: 1px solid #000; */
-    width: 290px;
+    width: 250px;
     height: 290px;
     padding: 10px;
     text-align: center;
@@ -262,11 +262,16 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    color: var(--noir);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    margin-bottom: 10px;
 }
 
 .carte-presentation2 {
     /* border: 1px solid #000; */
-    width: 290px;
+    width: 250px;
     height: 290px;
     padding: 10px;
     text-align: center;
@@ -274,17 +279,26 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    color: var(--noir);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    margin-bottom: 10px;
 }
 
 .carte-img {
     margin-bottom: 20px;
     background-color: #000;
-    box-shadow: 4px 4px 4px #000;
+   
+}
+
+.carte-img img {
+    width: 100%;
 }
 
 .carte-presentation3 {
     /* border: 1px solid #000; */
-    width: 290px;
+    width: 250px;
     height: 290px;
     padding: 10px;
     text-align: center;
@@ -292,11 +306,16 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    color: var(--noir);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    margin-bottom: 10px;
 }
 
 .carte-presentation4 {
     /* border: 1px solid #000; */
-    width: 290px;
+    width: 250px;
     height: 290px;
     padding: 10px;
     text-align: center;
@@ -304,12 +323,17 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    color: var(--noir);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    margin-bottom: 10px;
 }
 
 .presentation4-img img {
-    width: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
                                         /* PROJETS */
