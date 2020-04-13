@@ -37,6 +37,7 @@ Quatre sections :
     * Création du Header.
     * Mise en place des sections Présentation, Projets et Contact.
     * Refonte du Header et de la section Présentation.
+    * Création de la section Projets.
 
 # Le résultat
 
