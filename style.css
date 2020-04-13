@@ -225,7 +225,7 @@ nav {
 }
 
 .carte-presentation1 {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 290px;
     height: 290px;
     padding: 10px;
@@ -237,7 +237,7 @@ nav {
 }
 
 .carte-presentation2 {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 290px;
     height: 290px;
     padding: 10px;
@@ -248,18 +248,40 @@ nav {
     align-items: center;
 }
 
+.carte-img {
+    margin-bottom: 20px;
+    background-color: #000;
+    box-shadow: 4px 4px 4px #000;
+}
+
 .carte-presentation3 {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 290px;
     height: 290px;
     padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .carte-presentation4 {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 290px;
     height: 290px;
     padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation4-img img {
+    width: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
                                         /* PROJETS */
