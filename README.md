@@ -31,3 +31,6 @@ Quatre sections :
 
 * **12 Avril 2020**
     * Initialisation du projet.
+
+* **13 Avril 2020**
+    * Ajout du menu de navigation.

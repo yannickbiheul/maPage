@@ -1,5 +1,7 @@
 html, body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
     --blanc: #f5f6fa;
     --noir: #2f3640;
 }
@@ -9,7 +11,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px);
+    height: 100vh;
+    background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/fond-route.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -21,19 +26,21 @@ nav {
     box-shadow: 0 4px 4px #000;
     position: fixed;
     top: 0;
+    z-index: 2;
+    background-color: var(--blanc);
 }
 
 .nav1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     height: 90%;
     width: 10%;
 }
 
 .nav-button {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 30px;
     height: 30px;
     margin-left: 10px;
@@ -41,6 +48,7 @@ nav {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-button span {
@@ -53,7 +61,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     height: 90%;
     width: 80%;
 }
@@ -62,7 +70,87 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     height: 90%;
     width: 10%;
+}
+
+.menu {
+    /* border: 1px solid #000; */
+    width: 250px;
+    height: calc(100vh - 60px);
+    position: fixed;
+    left: -300px;
+    top: 60px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blanc);
+    transition-duration: 0.5s;
+}
+
+.menu-open {
+    /* border: 1px solid #000; */
+    width: 250px;
+    height: calc(100vh - 60px);
+    position: fixed;
+    left: 0;
+    top: 60px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blanc);
+    transition-duration: 0.5s;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+    width: 95%;
+    height: 20%;
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+    width: 95%;
+    height: 60%;
+}
+
+.menu2 a {
+    text-decoration: none;
+    color: var(--noir);
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+}
+
+.menu2 a:hover {
+    font-weight: bold;
+}
+
+.menu3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+    width: 95%;
+    height: 20%;
+}
+
+.main-container {
+    border: 2px solid #fff;
+    width: 95%;
+    height: 90%;
+    margin-top: 70px;
 }
