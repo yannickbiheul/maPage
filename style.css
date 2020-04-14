@@ -207,8 +207,19 @@ nav a:hover {
     transition-duration: 0.3s;
 }
 
+.menu1 {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .menu1 h2 {
     color: #e1b12c;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    font-size: 2em;
 }
 
 .menu2 {
@@ -216,6 +227,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 50%;
 }
 
 .menu2 a {
@@ -228,6 +240,29 @@ nav a:hover {
 .menu2 a:hover {
     font-weight: bold;
     color: #e1b12c;
+}
+
+.menu3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid #fff; */
+    width: 95%;
+    height: 25%;
+}
+
+.reseaux-titre h3 {
+    color: #e1b12c;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+.reseaux-logos img {
+    width: 45px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 #presentation {
@@ -283,7 +318,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/bubulles15.jpg");
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/bubulles4.jpg");
     background-size: cover;
     background-position: center;
 }

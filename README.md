@@ -44,6 +44,7 @@ Quatre sections :
     * Remplissage de la section Présentation.
     * Préparation de la section Projets.
     * Remplissage de la section Projets.
+    * Ajout des réseaux sociaux dans le menu.
 
 # Le résultat
 
