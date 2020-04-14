@@ -39,6 +39,9 @@ Quatre sections :
     * Refonte du Header et de la section Présentation.
     * Création de la section Projets.
 
+* **14 Avril 2020**
+    * Refonte totale du projet, pour un design un poil plus moderne.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr/index.html).
