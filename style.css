@@ -272,8 +272,9 @@ nav a:hover {
     color: #dcdde1;
 }
 
-.presentation ul li {
-    color: #dcdde1;
+.presentation-texte a {
+    text-decoration: none;
+    color: #e1b12c;
 }
 
 #projets {
