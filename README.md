@@ -43,6 +43,7 @@ Quatre sections :
     * Refonte totale du projet, pour un design un poil plus moderne.
     * Remplissage de la section Présentation.
     * Préparation de la section Projets.
+    * Remplissage de la section Projets.
 
 # Le résultat
 
