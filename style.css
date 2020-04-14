@@ -282,8 +282,64 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/bubulles11.jpg");
+    min-height: 100vh;
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/bubulles15.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-projets {
+    /* border: 1px solid #fff; */
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-225deg, #192a56 30%, #273c75 70%);
+    width: 95%;
+    height: 20%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+}
+
+.projet-texte {
+    width: 50%;
+}
+
+.projet-texte h3 {
+    font-family: 'Bangers', cursive;
+    color: #e1b12c;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.projet-texte p {
+    color: #dcdde1;
+}
+
+.projet-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet-image a {
+    text-decoration: none;
+    color: #dcdde1;
+    background: linear-gradient(-225deg, #c23616 30%, #e84118 70%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #000;
 }
 
 
@@ -313,8 +369,9 @@ nav a:hover {
     }
 
     .titre h1 {
-        font-size: 4em;
+        font-size: 4.5em;
         margin-bottom: 0;
+        margin-top: 200px;
     }
 
     .texte {
@@ -338,6 +395,7 @@ nav a:hover {
     .liens a {
         margin-left: 20px;
         margin-right: 20px;
+        display: none;
     }
 
     .presentation1 {
@@ -374,5 +432,23 @@ nav a:hover {
 
     .langages-texte {
         width: 75%;
+    }
+
+    .projet {
+        flex-direction: column;
+    }
+
+    .projet-image a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .projet-texte h3 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .projet-texte p {
+        text-align: center;
     }
 }
