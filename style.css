@@ -39,7 +39,7 @@ header {
 nav {
     height: 30px;
     width: 30%;
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px;
     /* border: 1px solid #fff; */
@@ -227,15 +227,64 @@ nav a:hover {
 
 .menu2 a:hover {
     font-weight: bold;
+    color: #e1b12c;
 }
 
 #presentation {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-225deg, #192a56 30%, #273c75 70%);
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 300px;
+    width: 90%;
+    /* border: 1px solid #fff; */
+}
+
+.presentation-texte {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid #e1b12c; */
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation-texte h3 {
+    font-family: 'Bangers', cursive;
+    color: #e1b12c;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.presentation-texte p {
+    color: #dcdde1;
+}
+
+.presentation ul li {
+    color: #dcdde1;
+}
+
+#projets {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(-225deg, #192a56 30%, #273c75 70%);
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/bubulles11.jpg");
 }
+
 
 @media screen and (max-width: 1290px) {
     nav {
@@ -278,8 +327,51 @@ nav a:hover {
     }
 
     .liens {
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin-top: -20px;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .liens a {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .presentation1 {
+        flex-direction: column;
+    }
+
+    .presentation-texte {
+        width: 75%;
+    }
+
+    .presentation-texte h3 {
+        font-size: 1.2em;
+    }
+
+    .presentation-image {
+        width: 75%;
+    }
+
+    .presentation-image img {
+        width: 85%;
+    }
+
+    .presentation-image p {
+        text-align: justify;
+    }
+
+    .presentation2 {
+        flex-direction: column;
+    }
+
+    .langages-logos {
+        display: none;
+    }
+
+    .langages-texte {
+        width: 75%;
     }
 }
