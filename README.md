@@ -51,6 +51,7 @@ Quatre sections :
     * Remplissage section Projets.
     * Préparation du design de la section Projets.
     * Essai de couleurs dans la section Projets.
+    * Changement du comportement du bouton "hamburger".
 
 # Le résultat
 
