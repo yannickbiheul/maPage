@@ -49,6 +49,7 @@ Quatre sections :
 * **15 Avril 2020**
     * Refonte de la section Présentation.
     * Remplissage section Projets.
+    * Préparation du design de la section Projets.
 
 # Le résultat
 

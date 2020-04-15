@@ -5,6 +5,28 @@ html, body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+
+    /* VARIABLES */
+    --bleu1: #00a8ff;
+    --bleu2: #0097e6;
+    --bleu3: #273c75;
+    --bleu4: #192a56;
+    --bleu5: #487eb0;
+    --bleu6: #40739e;
+    --jaune1: #fbc531;
+    --jaune2: #e1b12c;
+    --violet1: #9c88ff;
+    --violet2: #8c7ae6;
+    --vert1: #4cd137;
+    --vert2: #44bd32;
+    --rouge1: #e84118;
+    --rouge2: #c23616;
+    --blanc: #f5f6fa;
+    --gris1: #dcdde1;
+    --gris2: #7f8fa6;
+    --gris3: #718093;
+    --noir1: #353b48;
+    --noir2: #2f3640;
 }
 
                                         /* HEADER */
@@ -35,13 +57,13 @@ header {
     align-items: center;
     /* border: 1px solid #fff; */
     cursor: pointer;
-    z-index: 2;
+    z-index: 4;
 }
 
 .bouton span {
     width: 100%;
     height: 4px;
-    background-color: #dcdde1;
+    background-color: var(--blanc);
 }
 
                                         /* NAVIGATION */
@@ -62,16 +84,16 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: var(--blanc);
     margin-left: 10px;
     margin-right: 10px;
-    text-shadow: 2px 2px 4px #000;
+    text-shadow: 1px 1px 4px var(--blanc);
 }
 
 nav a:hover {
     font-weight: bold;
     text-decoration: underline;
-    color: #e1b12c;
+    color: var(--jaune2);
 }
 
                                         /* HEADER */
@@ -123,9 +145,9 @@ nav a:hover {
     font-family: 'Bangers', cursive;
     font-size: 5em;
     /* color: #dcdde1; */
-    color: #e1b12c;
+    color: var(--jaune2);
     letter-spacing: 4px;
-    text-shadow: 3px 3px 4px #000;
+    text-shadow: 3px 3px 4px var(--noir2);
     margin-bottom: 0;
 }
 
@@ -141,7 +163,7 @@ nav a:hover {
 }
 
 .texte h3 {
-    color: #dcdde1;
+    color: var(--blanc);
 }
 
 .liens {
@@ -152,12 +174,12 @@ nav a:hover {
 
 .liens a {
     text-decoration: none;
-    color: #fff;
+    color: var(--blanc);
     margin-top: 10px;
     margin-right: 20px;
-    background: linear-gradient(60deg, #192a56, #273c75);
+    background: linear-gradient(60deg, var(--bleu4), var(--bleu3));
     padding: 10px;
-    box-shadow: 4px 4px 4px #000;
+    box-shadow: 4px 4px 4px var(--noir2);
     border-radius: 10px;
     width: 60px;
     text-align: center;
@@ -197,8 +219,8 @@ nav a:hover {
     left: -300px;
     width: 250px;
     height: 100vh;
-    background: linear-gradient(-225deg, #192a56 30%, #273c75 70%);
-    z-index: 1;
+    background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 70%);
+    z-index: 3;
     box-shadow: 4px 0 4px #000;
     display: flex;
     flex-direction: column;
@@ -214,14 +236,14 @@ nav a:hover {
     left: 0;
     width: 250px;
     height: 100vh;
-    background: linear-gradient(-225deg, #192a56 30%, #273c75 70%);
-    z-index: 1;
-    box-shadow: 4px 0 4px #000;
+    background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 70%);
+    z-index: 3;
+    box-shadow: 4px 0 4px var(--noir2);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--blanc);
     transition-duration: 0.3s;
 }
 
@@ -234,7 +256,7 @@ nav a:hover {
 }
 
 .menu1 h2 {
-    color: #e1b12c;
+    color: var(--jaune2);
     font-family: 'Bangers', cursive;
     letter-spacing: 2px;
     font-size: 2em;
@@ -250,14 +272,14 @@ nav a:hover {
 
 .menu2 a {
     text-decoration: none;
-    color: #fff;
+    color: var(--blanc);
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
 
 .menu2 a:hover {
     font-weight: bold;
-    color: #e1b12c;
+    color: var(--jaune2);
 }
 
 .menu3 {
@@ -271,7 +293,7 @@ nav a:hover {
 }
 
 .reseaux-titre h3 {
-    color: #e1b12c;
+    color: var(--jaune2);
     font-family: 'Bangers', cursive;
     letter-spacing: 2px;
     font-size: 2em;
@@ -325,7 +347,7 @@ nav a:hover {
     height: 20%;
     width: 100%;
     font-family: 'Bangers', cursive;
-    color: #e1b12c;
+    color: var(--jaune2);
     font-size: 2em;
     letter-spacing: 2px;
     /* border: 1px solid #000; */
@@ -345,14 +367,14 @@ nav a:hover {
     justify-content: flex-end;
     align-items: flex-start;
     line-height: 20px;
-    color: #dcdde1;
+    color: var(--blanc);
     font-weight: bold;
     font-size: 1.1em;
 }
 
 .presentation-texte a {
     text-decoration: none;
-    color: #e1b12c;
+    color: var(--jaune2);
     font-weight: bold;
 }
 
@@ -374,7 +396,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    color: #e1b12c;
+    color: var(--jaune2);
     font-family: 'Bangers', cursive;
     font-size: 2em;
     letter-spacing: 2px;
@@ -395,11 +417,12 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-225deg, #dcdde1 30%, #fff 70%);
+    background: linear-gradient(-225deg, var(--blanc) 30%, #fff 70%);
     width: 290px;
-    height: 420px;
+    height: 350px;
     padding: 10px;
     margin-top: 20px;
+    border: 3px solid var(--jaune2);
     border-radius: 5px;
     box-shadow: 4px 4px 4px #000;
 }
@@ -420,13 +443,13 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(-225deg, #000 30%, #fff 70%);
-    height: 60%;
+    background: radial-gradient(-225deg, var(--noir2) 30%, var(--blanc) 70%);
+    height: 40%;
 }
 
 .image-projet img {
-    width: 75%;
-    color: #fff;
+    width: 50%;
+    color: var(--blanc);
 }
 
 .info-projet {
@@ -435,16 +458,16 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    height: 20%;
+    height: 40%;
 }
 
 .info-projet a {
-    background: linear-gradient(-225deg, #192a56 30%, #273c75 70%);
-    color: #fff;
+    background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 70%);
+    color: var(--blanc);
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 4px 4px 4px #000;
+    box-shadow: 4px 4px 4px var(--noir2);
 }
 
 
