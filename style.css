@@ -417,7 +417,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-225deg, var(--blanc) 30%, #fff 70%);
+    background: linear-gradient(-225deg, var(--bleu6) 30%, var(--bleu5) 70%);
     width: 290px;
     height: 350px;
     padding: 10px;
@@ -425,6 +425,7 @@ nav a:hover {
     border: 3px solid var(--jaune2);
     border-radius: 5px;
     box-shadow: 4px 4px 4px #000;
+    color: var(--blanc);
 }
 
 .titre-projet {

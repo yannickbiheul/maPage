@@ -50,6 +50,7 @@ Quatre sections :
     * Refonte de la section Présentation.
     * Remplissage section Projets.
     * Préparation du design de la section Projets.
+    * Essai de couleurs dans la section Projets.
 
 # Le résultat
 
