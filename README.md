@@ -48,6 +48,7 @@ Quatre sections :
 
 * **15 Avril 2020**
     * Refonte de la section Présentation.
+    * Remplissage section Projets.
 
 # Le résultat
 
