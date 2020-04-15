@@ -46,6 +46,9 @@ Quatre sections :
     * Remplissage de la section Projets.
     * Ajout des réseaux sociaux dans le menu.
 
+* **15 Avril 2020**
+    * Refonte de la section Présentation.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr/index.html).

@@ -1,8 +1,13 @@
+                                        /* GENERAL */
+
 html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
+
+                                        /* HEADER */
 
 header {
     background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/bubulles8.jpg");
@@ -13,7 +18,10 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
+
+                                        /* BOUTON */
 
 .bouton {
     width: 30px;
@@ -33,8 +41,10 @@ header {
 .bouton span {
     width: 100%;
     height: 4px;
-    background-color: #fff;
+    background-color: #dcdde1;
 }
+
+                                        /* NAVIGATION */
 
 nav {
     height: 30px;
@@ -63,6 +73,8 @@ nav a:hover {
     text-decoration: underline;
     color: #e1b12c;
 }
+
+                                        /* HEADER */
 
 .header1 {
     display: flex;
@@ -173,6 +185,8 @@ nav a:hover {
     width: 95%;
 }
 
+                                        /* MENU DE NAVIGATION */
+
 .menu {
     position: fixed;
     top: 0;
@@ -208,7 +222,7 @@ nav a:hover {
 }
 
 .menu1 {
-    height: 25%;
+    height: 15%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -245,11 +259,11 @@ nav a:hover {
 .menu3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     /* border: 1px solid #fff; */
     width: 95%;
-    height: 25%;
+    height: 35%;
 }
 
 .reseaux-titre h3 {
@@ -265,13 +279,17 @@ nav a:hover {
     margin-right: 3px;
 }
 
+                                        /* PRESENTATION */
+
 #presentation {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(-225deg, #192a56 30%, #273c75 70%);
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/blue-smoke.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .presentation {
@@ -281,36 +299,60 @@ nav a:hover {
     flex-wrap: wrap;
     min-height: 300px;
     width: 90%;
-    /* border: 1px solid #fff; */
+    /* border: 1px solid #000; */
 }
 
 .presentation-texte {
     width: 40%;
     height: 100%;
-    /* border: 1px solid #e1b12c; */
     text-align: center;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.presentation-texte h3 {
+.texte-titre {
+    /* border: 1px solid #000; */
+    height: 20%;
+    width: 100%;
     font-family: 'Bangers', cursive;
     color: #e1b12c;
     font-size: 2em;
     letter-spacing: 2px;
+    /* border: 1px solid #000; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.presentation-texte p {
+.texte-phrase {
+    /* border: 1px solid #192a56; */
+    height: 80%;
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    line-height: 20px;
     color: #dcdde1;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .presentation-texte a {
     text-decoration: none;
     color: #e1b12c;
+    font-weight: bold;
 }
+
+                                        /* PROJETS */
 
 #projets {
     display: flex;
@@ -377,6 +419,7 @@ nav a:hover {
     box-shadow: 4px 4px 4px #000;
 }
 
+                                        /* RESPONSIVE */
 
 @media screen and (max-width: 1290px) {
     nav {
@@ -407,6 +450,17 @@ nav a:hover {
         font-size: 4.5em;
         margin-bottom: 0;
         margin-top: 200px;
+        animation-duration: 1s;
+        animation-name: animetitre2;
+    }
+
+    @keyframes animetitre2 {
+        from {
+            margin-top: -600px;
+        }
+        to {
+            margin-top: 0;
+        }
     }
 
     .texte {
@@ -441,32 +495,8 @@ nav a:hover {
         width: 75%;
     }
 
-    .presentation-texte h3 {
-        font-size: 1.2em;
-    }
-
-    .presentation-image {
-        width: 75%;
-    }
-
-    .presentation-image img {
-        width: 85%;
-    }
-
-    .presentation-image p {
-        text-align: justify;
-    }
-
-    .presentation2 {
-        flex-direction: column;
-    }
-
-    .langages-logos {
-        display: none;
-    }
-
-    .langages-texte {
-        width: 75%;
+    .texte-titre {
+        font-size: 1em;
     }
 
     .projet {
