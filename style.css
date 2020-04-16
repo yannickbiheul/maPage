@@ -49,7 +49,7 @@ header {
     width: 30px;
     height: 30px;
     position: fixed;
-    top: 20px;
+    top: 10px;
     left: 20px;
     display: flex;
     flex-direction: column;
@@ -128,17 +128,18 @@ header {
                                         /* NAVIGATION */
 
 nav {
-    height: 30px;
-    width: 30%;
+    height: 50px;
+    width: 100%;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 0;
     /* border: 1px solid #fff; */
     padding-right: 20px;
     padding-left: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
+    box-shadow: 0 4px 4px #000;
+    background: linear-gradient(-225deg, rgba(30, 39, 46, 0.8) 80%, rgba(39, 60, 117, 0.6) 80%)
 }
 
 nav a {
@@ -368,74 +369,189 @@ nav a:hover {
 
 #presentation {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/blue-smoke.jpg");
+    min-height: 60vh;
+    /* background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/blue-smoke.jpg"); */
+    background: linear-gradient(-225deg, var(--blanc) 50%, #fff 50%);
     background-size: cover;
     background-position: center;
 }
 
-.presentation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 300px;
-    width: 90%;
+.container-card {
     /* border: 1px solid #000; */
-}
-
-.presentation-texte {
-    width: 40%;
-    height: 100%;
-    text-align: center;
+    width: 300px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-.texte-titre {
-    /* border: 1px solid #000; */
-    height: 20%;
+.card {
     width: 100%;
-    font-family: 'Bangers', cursive;
-    color: var(--jaune2);
-    font-size: 2em;
-    letter-spacing: 2px;
-    /* border: 1px solid #000; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.texte-phrase {
-    /* border: 1px solid #192a56; */
     height: 80%;
-    width: 100%;
-    text-align: justify;
+    border: 1px solid var(--bleu4);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    cursor: pointer;
+    background: linear-gradient(60deg, var(--bleu4) 30%, var(--bleu3) 80%);
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    line-height: 20px;
-    color: var(--blanc);
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    padding: 1px;
+    outline: none;
     font-weight: bold;
-    font-size: 1.1em;
 }
 
-.presentation-texte a {
-    text-decoration: none;
-    color: var(--jaune2);
+.card2 {
+    width: 100%;
+    height: 80%;
+    border: 1px solid var(--bleu4);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    cursor: pointer;
+    background: linear-gradient(60deg, var(--vert2) 30%, var(--vert1) 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    padding: 1px;
+    outline: none;
     font-weight: bold;
 }
+
+.card3 {
+    width: 100%;
+    height: 80%;
+    border: 1px solid var(--bleu4);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    cursor: pointer;
+    background: linear-gradient(60deg, var(--rouge2) 30%, var(--rouge1) 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    padding: 1px;
+    outline: none;
+    font-weight: bold;
+}
+
+.card4 {
+    width: 100%;
+    height: 80%;
+    border: 1px solid var(--bleu4);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    cursor: pointer;
+    background: linear-gradient(60deg, var(--jaune2) 30%, var(--jaune1) 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    padding: 1px;
+    outline: none;
+    font-weight: bold;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    font-weight: bold;
+    /* text-shadow: 0.5px 0.5px 3px #fff; */
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.card-title2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    font-weight: bold;
+    /* text-shadow: 0.5px 0.5px 3px #fff; */
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.card-title3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    font-weight: bold;
+    /* text-shadow: 0.5px 0.5px 3px #fff; */
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.card-title4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    font-weight: bold;
+    /* text-shadow: 0.5px 0.5px 3px #fff; */
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.titleActive {
+    display: none;
+}
+
+.card-text {
+    display: none;
+    transition-duration: 0.3s;
+}
+
+.card-text2 {
+    display: none;
+    transition-duration: 0.3s;
+}
+
+.card-text3 {
+    display: none;
+    transition-duration: 0.3s;
+}
+
+.card-text4 {
+    display: none;
+    transition-duration: 0.3s;
+}
+
+.card-text4 ul {
+    margin-top: -10px;
+}
+
+.textActive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    width: 82%;
+    height: 82%;
+}
+
 
                                         /* PROJETS */
 

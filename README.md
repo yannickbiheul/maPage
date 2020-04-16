@@ -53,6 +53,9 @@ Quatre sections :
     * Essai de couleurs dans la section Projets.
     * Changement du comportement du bouton "hamburger".
 
+* **16 Avril 2020**
+    * Refonte section Présentation.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr/index.html).
