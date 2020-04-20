@@ -56,6 +56,9 @@ Quatre sections :
 * **16 Avril 2020**
     * Refonte section Présentation.
 
+* **20 Avril 2020**
+    * Refonte section Présentation et Projets.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr/index.html).
