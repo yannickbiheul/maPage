@@ -372,10 +372,12 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    min-height: 60vh;
+    min-height: 100vh;
     background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/mur-bleu.jpg");
     background-size: cover;
     background-position: center;
+    border-top: 5px solid var(--jaune2);
+    border-bottom: 5px solid var(--jaune2);
 }
 
 .container-card {
@@ -395,7 +397,10 @@ nav a:hover {
     border-radius: 5px;
     box-shadow: 4px 4px 4px #000;
     cursor: pointer;
-    background: linear-gradient(60deg, var(--bleu4) 30%, var(--bleu3) 80%);
+    /* background: linear-gradient(60deg, var(--bleu4) 30%, var(--bleu3) 80%); */
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/presentation.png");
+    background-size: cover;
+    background-position :center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -404,6 +409,10 @@ nav a:hover {
     padding: 1px;
     outline: none;
     font-weight: bold;
+}
+
+.card:hover {
+    height: 90%;
 }
 
 .card2 {
@@ -413,7 +422,11 @@ nav a:hover {
     border-radius: 5px;
     box-shadow: 4px 4px 4px #000;
     cursor: pointer;
-    background: linear-gradient(60deg, var(--vert2) 30%, var(--vert1) 80%);
+    /* background: linear-gradient(60deg, var(--vert2) 30%, var(--vert1) 80%); */
+    /* background: linear-gradient(60deg, var(--bleu4) 30%, var(--bleu3) 80%); */
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/fond-route_mini.jpg");
+    background-size: cover;
+    background-position :center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -422,6 +435,10 @@ nav a:hover {
     padding: 1px;
     outline: none;
     font-weight: bold;
+}
+
+.card2:hover {
+    height: 90%;
 }
 
 .card3 {
@@ -431,7 +448,11 @@ nav a:hover {
     border-radius: 5px;
     box-shadow: 4px 4px 4px #000;
     cursor: pointer;
-    background: linear-gradient(60deg, var(--rouge2) 30%, var(--rouge1) 80%);
+    /* background: linear-gradient(60deg, var(--rouge2) 30%, var(--rouge1) 80%); */
+    /* background: linear-gradient(60deg, var(--bleu4) 30%, var(--bleu3) 80%); */
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/langages.png");
+    background-size: cover;
+    background-position :center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -442,6 +463,10 @@ nav a:hover {
     font-weight: bold;
 }
 
+.card3:hover {
+    height: 90%;
+}
+
 .card4 {
     width: 100%;
     height: 80%;
@@ -449,7 +474,11 @@ nav a:hover {
     border-radius: 5px;
     box-shadow: 4px 4px 4px #000;
     cursor: pointer;
-    background: linear-gradient(60deg, var(--jaune2) 30%, var(--jaune1) 80%);
+    /* background: linear-gradient(60deg, var(--jaune2) 30%, var(--jaune1) 80%); */
+    /* background: linear-gradient(60deg, var(--bleu4) 30%, var(--bleu3) 80%); */
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/learning.png");
+    background-size: cover;
+    background-position :center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -458,6 +487,10 @@ nav a:hover {
     padding: 1px;
     outline: none;
     font-weight: bold;
+}
+
+.card4:hover {
+    height: 90%;
 }
 
 .card-title {
@@ -471,6 +504,9 @@ nav a:hover {
     /* text-shadow: 0.5px 0.5px 3px #fff; */
     color: #fff;
     transition-duration: 0.3s;
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
 
 .card-title2 {
@@ -484,6 +520,9 @@ nav a:hover {
     /* text-shadow: 0.5px 0.5px 3px #fff; */
     color: #fff;
     transition-duration: 0.3s;
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
 
 .card-title3 {
@@ -497,6 +536,9 @@ nav a:hover {
     /* text-shadow: 0.5px 0.5px 3px #fff; */
     color: #fff;
     transition-duration: 0.3s;
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
 
 .card-title4 {
@@ -510,6 +552,9 @@ nav a:hover {
     /* text-shadow: 0.5px 0.5px 3px #fff; */
     color: #fff;
     transition-duration: 0.3s;
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
 
 .titleActive {
@@ -519,21 +564,79 @@ nav a:hover {
 .card-text {
     display: none;
     transition-duration: 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-text p {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
 }
 
 .card-text2 {
     display: none;
     transition-duration: 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-text2 p {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
 }
 
 .card-text3 {
     display: none;
     transition-duration: 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-text3 p {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
 }
 
 .card-text4 {
     display: none;
     transition-duration: 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-text4 p {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+}
+
+.card-text4 ul {
+    background-color: #fff;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    list-style-type: none;
+}
+
+.card-text4 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-text4 a:hover {
+    color: var(--bleu4);
+    font-weight: bold;
 }
 
 .card-text4 ul {
