@@ -27,6 +27,7 @@ Quatre sections :
 * [Ionos](https://www.ionos.fr/) pour l'achat du nom de domaine
 * [FreePng.fr](https://www.freepng.fr/) pour les PNG.
 * [AnimateOnScroll](https://michalsnik.github.io/aos/) pour les animations.
+* [Csshake](https://elrumordelaluz.github.io/csshake/) pour l'animation des boutons.
 
 # Journal
 
