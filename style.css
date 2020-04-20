@@ -209,6 +209,7 @@ nav a:hover {
     letter-spacing: 4px;
     text-shadow: 3px 3px 4px var(--noir2);
     margin-bottom: 0;
+    transition-duration: 2s;
 }
 
 .texte {
@@ -378,6 +379,7 @@ nav a:hover {
     background-position: center;
     border-top: 5px solid var(--jaune2);
     border-bottom: 5px solid var(--jaune2);
+    overflow: hidden;
 }
 
 .container-card {

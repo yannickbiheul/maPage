@@ -26,6 +26,7 @@ Quatre sections :
 * [FileZilla](https://filezilla-project.org/) pour communiquer avec le serveur
 * [Ionos](https://www.ionos.fr/) pour l'achat du nom de domaine
 * [FreePng.fr](https://www.freepng.fr/) pour les PNG.
+* [AnimateOnScroll](https://michalsnik.github.io/aos/) pour les animations.
 
 # Journal
 
@@ -58,6 +59,7 @@ Quatre sections :
 
 * **20 Avril 2020**
     * Refonte section Présentation et Projets.
+    * Ajout d'animations avec AnimateOnScroll.
 
 # Le résultat
 

@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yannick Biheul, ou l'apprentissage du développement web Front-End spécialisation JavaScript.</title>
+    <!-- MON CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <!-- ANIMATE ON SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -39,7 +43,7 @@
         <div class="header2">
             <div class="nom">
                 <div class="titre">
-                    <h1>Yannick Biheul</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="1500">Yannick Biheul</h1>
                 </div>
                 <div class="texte">
                     <h3>Reconversion professionnelle dans le développement web.</h3>
@@ -50,7 +54,7 @@
                 </div>
             </div>
             <div class="png">
-                <img id="png" src="images/web3.png">
+                <img id="png" src="images/web3.png" data-aos="fade-left" data-aos-duration="1500">
             </div>
         </div>
 
@@ -88,7 +92,7 @@
 
     <section id="presentation">
         <div class="container-card">
-            <div class="card">
+            <div class="card" data-aos="fade-up-right" data-aos-duration="1000">
                 <div class="card-title">
                     <h2>Présentation</h2>
                 </div>
@@ -99,7 +103,8 @@
             </div>
         </div>
         <div class="container-card">
-            <div class="card2">
+            <div class="card2" data-aos="fade-up"
+            data-aos-duration="1000">
                 <div class="card-title2">
                     <h2>Parcours</h2>
                 </div>
@@ -110,7 +115,9 @@
             </div>
         </div>
         <div class="container-card">
-            <div class="card3">
+            <div class="card3" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
                 <div class="card-title3">
                     <h2>Langages</h2>
                 </div>
@@ -121,7 +128,7 @@
             </div>
         </div>
         <div class="container-card">
-            <div class="card4">
+            <div class="card4" data-aos="fade-up-left" data-aos-duration="1000">
                 <div class="card-title4">
                     <h2>Apprentissage</h2>
                 </div>
@@ -148,7 +155,7 @@
         </div>
         <div class="container-projets">
                                                                         <!-- PROJET 1 -->
-            <div class="projet">
+            <div class="projet" data-aos="zoom-in" data-aos-duration="1500">
                 <img class="punaise" src="images/punaise.png">
                 <div class="projet1">
                     <a href="http://yannickbiheul.fr/jeu.html"><img src="images/trump2.png" alt="Trump"></a>
@@ -158,7 +165,7 @@
                 </div>
             </div>
                                                                         <!-- PROJET 2 -->
-            <div class="projet">
+            <div class="projet" data-aos="zoom-in" data-aos-duration="1500">
                 <img class="punaise" src="images/punaise.png">
                 <div class="projet1">
                     <a href="http://yannickbiheul.fr/quiz.html"><img src="images/interro.png" alt="Interro"></a>
@@ -168,7 +175,7 @@
                 </div>
             </div>
                                                                         <!-- PROJET 3 -->
-            <div class="projet">
+            <div class="projet" data-aos="zoom-in" data-aos-duration="1500">
                 <img class="punaise" src="images/punaise.png">
                 <div class="projet1">
                     <a href="http://deskad.fr"><img src="images/journal.png" alt="Journal"></a>
@@ -181,6 +188,13 @@
     </section>
 
 
+    <!-- ANIMATE ON SCOLL -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- MON SCRIPT -->
     <script src="script.js"></script>
+
 </body>
 </html>
