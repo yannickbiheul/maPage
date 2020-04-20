@@ -57,7 +57,7 @@ header {
     align-items: center;
     /* border: 1px solid #fff; */
     cursor: pointer;
-    z-index: 5;
+    z-index: 3;
 }
 
 .modifFlex {
@@ -139,7 +139,8 @@ nav {
     justify-content: flex-end;
     align-items: center;
     box-shadow: 0 4px 4px #000;
-    background: linear-gradient(-225deg, rgba(30, 39, 46, 0.8) 80%, rgba(39, 60, 117, 0.6) 80%)
+    background: linear-gradient(-225deg, rgba(30, 39, 46, 0.8) 80%, rgba(39, 60, 117, 0.6) 80%);
+    z-index: 2;
 }
 
 nav a {
@@ -281,7 +282,7 @@ nav a:hover {
     width: 250px;
     height: 100vh;
     background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 70%);
-    z-index: 6;
+    z-index: 3;
     box-shadow: 4px 0 4px #000;
     display: flex;
     flex-direction: column;
