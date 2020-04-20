@@ -57,7 +57,7 @@ header {
     align-items: center;
     /* border: 1px solid #fff; */
     cursor: pointer;
-    z-index: 4;
+    z-index: 5;
 }
 
 .modifFlex {
@@ -72,7 +72,7 @@ header {
     align-items: center;
     /* border: 1px solid #fff; */
     cursor: pointer;
-    z-index: 4;
+    z-index: 5;
 }
 
 .span1 {
@@ -280,7 +280,7 @@ nav a:hover {
     width: 250px;
     height: 100vh;
     background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 70%);
-    z-index: 3;
+    z-index: 6;
     box-shadow: 4px 0 4px #000;
     display: flex;
     flex-direction: column;
@@ -373,8 +373,7 @@ nav a:hover {
     justify-content: space-around;
     align-items: center;
     min-height: 60vh;
-    /* background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/blue-smoke.jpg"); */
-    background: linear-gradient(-225deg, var(--blanc) 50%, #fff 50%);
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/mur-bleu.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -561,7 +560,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(-225deg, #192a56 30%, #273c75 70%);
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/mur-blanc.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -575,6 +574,7 @@ nav a:hover {
     font-family: 'Bangers', cursive;
     font-size: 2em;
     letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .container-projets {
