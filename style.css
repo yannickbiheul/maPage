@@ -680,6 +680,7 @@ nav a:hover {
     background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/mur-blanc.jpg");
     background-size: cover;
     background-position: center;
+    padding-bottom: 20px;
 }
 
 .projet-titre {
@@ -691,13 +692,13 @@ nav a:hover {
     font-family: 'Bangers', cursive;
     font-size: 2em;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px #000;
+    text-shadow: -2px 2px 4px #000;
 }
 
 .container-projets {
     /* border: 1px solid #fff; */
     width: 90%;
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -710,8 +711,8 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     background: linear-gradient(-225deg, var(--bleu4) 30%, var(--bleu3) 70%);
-    width: 290px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
     padding: 10px;
     margin-top: 20px;
     border: 3px solid var(--jaune2);
@@ -756,6 +757,7 @@ nav a:hover {
 .projet2 a {
     text-decoration: none;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 .projet2 a:hover {

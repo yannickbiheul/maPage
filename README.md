@@ -65,6 +65,7 @@ Quatre sections :
 * **21 Avril 2020**
     * Ajout d'icônes pour navigateurs web et mobiles.
     * Ajout d'un Footer.
+    * Petites modifs sur le design général.
 
 # Le résultat
 
