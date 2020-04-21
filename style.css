@@ -200,6 +200,7 @@ nav a:hover {
     height: 50%;
     width: 100%;
     /* border: 1px solid #fbc531; */
+    z-index: 0;
 }
 
 .titre h1 {
@@ -222,6 +223,7 @@ nav a:hover {
     height: 50%;
     width: 100%;
     border-radius: 10px;
+    z-index: 0;
 }
 
 .texte h3 {
@@ -259,6 +261,7 @@ nav a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 0;
 }
 
 .png img {
@@ -416,6 +419,7 @@ nav a:hover {
     padding: 1px;
     outline: none;
     font-weight: bold;
+    z-index: 0;
 }
 
 .card:hover {
@@ -442,6 +446,7 @@ nav a:hover {
     padding: 1px;
     outline: none;
     font-weight: bold;
+    z-index: 0;
 }
 
 .card2:hover {
@@ -468,6 +473,7 @@ nav a:hover {
     padding: 1px;
     outline: none;
     font-weight: bold;
+    z-index: 0;
 }
 
 .card3:hover {
@@ -494,6 +500,7 @@ nav a:hover {
     padding: 1px;
     outline: none;
     font-weight: bold;
+    z-index: 0;
 }
 
 .card4:hover {
@@ -755,6 +762,22 @@ nav a:hover {
     color: var(--jaune2);
 }
 
+                                        /* FOOTER */
+
+footer {
+    height: 50px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-225deg, rgba(30, 39, 46, 0.8) 80%, rgba(39, 60, 117, 0.6) 80%);
+    z-index: 2;
+}
+
+footer p {
+    color: #fff;
+    font-weight: bold;
+}
 
 
                                         /* RESPONSIVE */
