@@ -62,6 +62,9 @@ Quatre sections :
     * Refonte section Présentation et Projets.
     * Ajout d'animations avec AnimateOnScroll.
 
+* **21 Avril 2020**
+    * Ajout d'icônes pour navigateurs web et mobiles.
+
 # Le résultat
 
 La page se trouve ici : [Yannick Biheul](http://yannickbiheul.fr/index.html).

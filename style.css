@@ -228,6 +228,10 @@ nav a:hover {
     color: var(--blanc);
 }
 
+.text-titre {
+    transition-duration: 0.2s;
+}
+
 .liens {
     display: flex;
     justify-content: flex-start;
