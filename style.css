@@ -379,7 +379,7 @@ nav a:hover {
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/mur-bleu.jpg");
+    background: linear-gradient(-225deg, rgba(25, 42, 86, 0.5) 30%, rgba(39, 60, 117, 0.6) 80%), url("images/mur-bleu2.jpg");
     background-size: cover;
     background-position: center;
     border-top: 5px solid var(--jaune2);
