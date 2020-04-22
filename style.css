@@ -175,7 +175,7 @@ nav a:hover {
 
 .header2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     /* border: 1px solid #fff; */
     height: 60%;
@@ -255,8 +255,8 @@ nav a:hover {
 }
 
 .png {
-    width: 50%;
-    height: 95%;
+    width: 400px;
+    height: 255px;
     /* border: 1px solid #fff; */
     display: flex;
     justify-content: flex-end;
@@ -795,9 +795,9 @@ footer p {
 
     .header1 img {
         position: absolute;
-        top: 15%;
+        top: 25%;
         display: flex;
-        width: 90%;
+        width: 250px;
         z-index: 1;
     }
 

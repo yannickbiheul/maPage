@@ -26,6 +26,7 @@ Quatre sections :
 * [FileZilla](https://filezilla-project.org/) pour communiquer avec le serveur
 * [Ionos](https://www.ionos.fr/) pour l'achat du nom de domaine
 * [FreePng.fr](https://www.freepng.fr/) pour les PNG.
+* [ResizeImage.net](https://resizeimage.net/) pour redimensionner les images.
 * [AnimateOnScroll](https://michalsnik.github.io/aos/) pour les animations.
 * [Csshake](https://elrumordelaluz.github.io/csshake/) pour l'animation des boutons.
 
@@ -66,6 +67,9 @@ Quatre sections :
     * Ajout d'icônes pour navigateurs web et mobiles.
     * Ajout d'un Footer.
     * Petites modifs sur le design général.
+
+* **22 Avril 2020**
+    * Changement de logo.
 
 # Le résultat
 
